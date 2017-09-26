@@ -1,7 +1,7 @@
 #!/usr/bin/env expect
 set relay_server "relay"
 set config_name [lindex $argv 0]
-
+//
 if {[llength $argv] > 2} {
     send_user "too many arguments\n"
     exit 1
